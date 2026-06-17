@@ -1,0 +1,110 @@
+@media (min-width: 62.7em) {
+  html {
+    font-size: 75%;
+  }
+  .hero-section {
+    background-size: cover;
+    background-position: right;
+  }
+}
+@media (max-width: 62.7em) {
+  html {
+    font-size: 56.25%;
+  }
+  .hero-section {
+    background-size: cover;
+    background-position: right;
+  }
+}
+@media (max-width: 54.1em) {
+  .hero-title {
+    font-size: 4.2rem;
+  }
+  .hero-description {
+    font-size: 2rem;
+  }
+  .hero-content {
+    width: 70%;
+  }
+  .open {
+    display: block;
+  }
+  .nav-list {
+    display: none;
+  }
+  .nutrition-list {
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    margin: 0 auto;
+  }
+  .ingredient-list {
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+  }
+  .foot {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+  .logo {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .grid-column-attribute {
+    grid-column: span 2;
+    justify-self: center;
+  }
+}
+@media (max-width: 62.7em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 38.5em) {
+  html {
+    font-size: 50%;
+  }
+  .hero-title {
+    font-size: 3.8rem;
+  }
+  .hero-description {
+    font-size: 2rem;
+  }
+  .cook-step {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .step-list {
+    justify-self: center !important;
+  }
+  .ingredient-list {
+    grid-template-columns: 1fr;
+    width: 50%;
+  }
+  .nutrition-list {
+    grid-template-columns: 1fr;
+    width: 50%;
+  }
+  .hero-content {
+    width: 100%;
+  }
+  .nutrition {
+    width: 80%;
+  }
+}
+@media (max-width: 23.75em) {
+  .hero-title {
+    font-size: 3.4rem;
+  }
+  .hero-description {
+    font-size: 1.6rem;
+  }
+  .cook-step {
+    grid-template-columns: 1fr;
+  }
+  .foot {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .grid-column-attribute {
+    grid-column: 1/-1;
+    justify-self: start;
+  }
+}
